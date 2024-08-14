@@ -40,5 +40,5 @@ if($deploy_vms -eq 'y')
     # Week 01 deployment
     $rangecontrol.DeployClones("vyos.f22.v2","GW")
     $rangecontrol.DeployClones("kali.2022.4.f22","kali01")
-    $rangecontrol.DeployClones("centos7.2022.v2","centos")
+    $rangecontrol.DeployClones("rocky.f22","rocky")
 }
