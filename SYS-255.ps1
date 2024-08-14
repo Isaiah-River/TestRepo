@@ -41,25 +41,25 @@ if($deploy_vms -eq 'y')
     $rangecontrol.DeployClones("vyos.f22.v2","GW")
     $rangecontrol.DeployClones("server.2019.gui.f22.base","ad01")
     $rangecontrol.DeployClones("windows.10.ltsc.f22.v2","wks01  ")
-    $rangecontrol.DeployClones("centos7.2022.v2","dhcp01")
+    $rangecontrol.DeployClones("rocky.f22","dhcp01")
     $rangecontrol.DeployClones("pf2.5.2.2022.base.rs2","fw01")
     
     # Week 06 deployment
     #$rangecontrol.DeployClones("server.2019.gui.f22.base","ad-assessment")
     #$rangecontrol.DeployClones("windows.10.ltsc.f22.v2","wks-assessment")
-    #$rangecontrol.DeployClones("centos7.2022.v2","dhcp-assessment")
+    #$rangecontrol.DeployClones("rocky.f22","dhcp-assessment")
     #$rangecontrol.DeployClones("pf2.5.2.2022.base.rs2","fw-assessment")
 
     # Week 07 deployment
     #$rangecontrol.DeployClones("server.2019.core.f22","fs01")
 
     # Week 08 deployment
-    #$rangecontrol.DeployClones("centos7.2022.v2","web01")
+    #$rangecontrol.DeployClones("rocky.f22","web01")
 
     # Week 10 deployment
-    #$rangecontrol.DeployClones("centos7.2022.v2","blog01")
-    #$rangecontrol.DeployClones("centos7.2022.v2","clone01")
-    #$rangecontrol.DeployClones("centos7.2022.v2","clone02")
-    #$rangecontrol.DeployClones("centos7.2022.v2","clone03")
-    #$rangecontrol.DeployClones("centos7.2022.v2","clone04")
+    #$rangecontrol.DeployClones("rocky.f22","blog01")
+    #$rangecontrol.DeployClones("rocky.f22","clone01")
+    #$rangecontrol.DeployClones("rocky.f22","clone02")
+    #$rangecontrol.DeployClones("rocky.f22","clone03")
+    #$rangecontrol.DeployClones("rocky.f22","clone04")
 }
